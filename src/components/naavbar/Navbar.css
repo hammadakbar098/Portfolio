@@ -3,7 +3,12 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 1rem;
+  font-size: 1.2vw;
+}
+.navbar-items {
+  /* width: 70%; */
+  /* text-align: center; */
+  margin: 1vw;
 }
 
 .nav-menu {
@@ -21,14 +26,14 @@ ul li {
 .nav-links {
   color: #ffffff;
   text-decoration: none;
-  padding: 20px;
+  padding: 0 2em;
 }
 .menu-icon {
   display: none;
   color: #ffffff;
 }
 .logo {
-  width: 3.2rem;
+  width: 4.5vw;
   margin-right: 70px;
   cursor: pointer;
 }
@@ -36,6 +41,7 @@ ul li {
 @media screen and (max-width: 960px) {
   .NavbarItems {
     position: relative;
+    font-size: 1rem;
   }
   .nav-menu {
     display: flex;
@@ -74,11 +80,16 @@ ul li {
 
   .mb-btn {
     position: absolute;
-    top: 70vh;
-    left: 30;
-    /* transform: translate(120%, 390%); */
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, 1225%);
   }
   .logo {
     margin-right: 0;
+    width: 3.5rem;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, 60%);
   }
 }

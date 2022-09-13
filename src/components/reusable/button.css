@@ -1,18 +1,24 @@
 .button {
   background-color: #1db954;
   color: #ffffff;
-  border: 0px;
+  border: none;
   text-align: center;
   cursor: pointer;
 }
+
 .button:hover {
   background: rgba(32, 194, 88, 0.7);
 }
+.button:focus {
+  border: none;
+  outline: none;
+}
 .btn-round {
   border-radius: 30px;
-  padding: 10px 25px;
-  font-size: 1rem;
+  font-size: 1.1vw;
   font-weight: 700;
+  width: 11.5vw;
+  height: 2.8vw;
 }
 .btn-sm {
   padding: 7px 25px;
@@ -25,4 +31,14 @@
   font-weight: 700;
   padding: 10px 15px;
   border-radius: 6px;
+}
+@media screen and (max-width: 960px) {
+  .btn-round {
+    border-radius: 30px;
+
+    width: 159px;
+    height: 40px;
+    font-size: 14px;
+    font-weight: 700;
+  }
 }
