@@ -8,4 +8,9 @@
 body {
   background-color: #191414;
   font-family: "Inter", sans-serif;
+  /* overflow: hidden; */
+  overflow-y: scroll;
+}
+body::-webkit-scrollbar {
+  display: none;
 }

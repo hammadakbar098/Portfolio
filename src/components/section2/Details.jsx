@@ -1,0 +1,44 @@
+import React, { useEffect } from "react";
+import "./Details.css";
+import bay from "./../../images/bay.png";
+import Aos from "aos";
+import "aos/dist/aos.css";
+import Title from "../reusable/Title";
+const Details = () => {
+  useEffect(() => {
+    Aos.init({ duration: 2000 });
+  }, []);
+  return (
+    <div className="test">
+      {/* <h1 className="h1">What i do?</h1> */}
+      <Title title="what i do?" />
+      <div className="section2">
+        <div data-aos="zoom-in-up" className="details">
+          <h2 className="details-h2">
+            <span>Front-end</span>
+            <span> web development</span>
+          </h2>
+          <p>Skills:</p>
+          <ul>
+            <li>HTML5, CSS3, Bootstrap, React.js, Github</li>
+          </ul>
+          <p>Figma to Html5</p>
+          <p>PSD to HTML5</p>
+          <p>JavaScript animations</p>
+          <p>React js</p>
+          <p>Responsive design(mobile, tablet, desktop)</p>
+        </div>
+        <div>
+          <img
+            data-aos="zoom-in-up"
+            className="bay"
+            src={bay}
+            alt="baymax at what i do"
+          />
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default Details;
