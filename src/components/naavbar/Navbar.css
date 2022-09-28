@@ -5,8 +5,9 @@
   align-items: center;
   font-size: 1.2vw;
 
-  padding-top: 1vh;
+  /* padding-top: 1vh; */
   margin-bottom: 10vh;
+  margin-top: 1%;
 }
 .navbar-items {
   /* width: 70%; */

@@ -1,0 +1,42 @@
+p {
+  color: aliceblue;
+}
+.outerBox {
+  width: 13vw;
+  height: 0.8vw;
+  border-radius: 1vw;
+  background-color: #ffffff;
+}
+.innerBox {
+  height: 0.8vw;
+  border-radius: 1vw;
+  background-color: #1db954;
+  animation: loading 2s ease-in-out forwards;
+}
+.progressbarTitle {
+  font-weight: 500;
+  font-size: 1.3vw;
+  margin-bottom: 0.6vw;
+}
+
+@media screen and (max-width: 960px) {
+  .progressbarTitle {
+    font-size: 3.5vw;
+  }
+  .outerBox {
+    width: 20vw;
+    height: 1.5vw;
+  }
+  .innerBox {
+    height: 1.5vw;
+  }
+}
+
+@keyframes loading {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 80%;
+  }
+}

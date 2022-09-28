@@ -3,6 +3,7 @@
   margin-top: 60px;
   justify-content: center;
   padding-right: 0.8vw;
+  /* margin-left: 120px  ; */
   width: 100%;
 }
 .size {
@@ -68,5 +69,6 @@
   .baymax {
     margin-left: 0;
     padding-right: 0;
+    /* box-shadow: 0 0 140px 90px #ffffff; */
   }
 }

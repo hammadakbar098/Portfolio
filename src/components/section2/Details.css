@@ -35,6 +35,9 @@ ul {
   margin-top: 10vh;
 }
 @media screen and (max-width: 960px) {
+  .test {
+    /* margin-top: 300px; */
+  }
   .details-h2 {
     font-size: 1.1rem;
     display: flex;

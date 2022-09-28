@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Anek Gurmukhi';
+    src: url('AnekGurmukhi-Medium.eot');
+    src: local('Anek Gurmukhi Medium'), local('AnekGurmukhi-Medium'),
+        url('AnekGurmukhi-Medium.eot?#iefix') format('embedded-opentype'),
+        url('AnekGurmukhi-Medium.woff2') format('woff2'),
+        url('AnekGurmukhi-Medium.woff') format('woff'),
+        url('AnekGurmukhi-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
