@@ -16,7 +16,7 @@
   flex-direction: column;
   justify-content: center;
   width: 27vw;
-  height: 15%;
+  height: 6vw;
   background-color: rgba(68, 55, 55, 0.4);
   color: #ffffff;
   border-radius: 1.5vw;
@@ -111,10 +111,11 @@
     width: 38vw;
     height: 11vw;
     margin-left: -10%;
-    margin-top: 5%;
+    margin: 4.5% 0;
   }
   .box_placement {
-    margin-top: 27%;
+    margin-top: 27.5%;
+    margin-left: -18%;
   }
   .rSection_1 {
     /* width: 100%; */

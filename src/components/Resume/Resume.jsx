@@ -19,7 +19,7 @@ const Resume = () => {
   }, []);
 
   return (
-    <>
+    <div id="resume">
       <div className="title">
         <Title title="Resume" />
       </div>
@@ -81,14 +81,18 @@ const Resume = () => {
             {ProgressBarDetails.map((bar) => {
               return (
                 <div className="barDiv">
-                  <ProgressBar title={bar.title} width={bar.width} />
+                  <ProgressBar
+                    title={bar.title}
+                    width={bar.width}
+                    animation={bar.animation}
+                  />
                 </div>
               );
             })}
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 

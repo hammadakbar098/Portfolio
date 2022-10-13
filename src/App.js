@@ -1,20 +1,29 @@
 import "./App.css";
 import Navbar from "./components/naavbar/Navbar";
-import Header from "./components/Header/Header";
-import Details from "./components/section2/Details";
-import Resume from "./components/Resume/Resume";
 import ProgressBar from "react-scroll-progress-bar";
-// import LoadingBar from "react-top-loading-bar";
+import Footer from "./components/Footer/Footer";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Portfolio from "./components/Portfolio/Portfolio";
+import Home from "./components/Home";
+import Services from "./components/Services/Services";
+import NotFound from "./components/NotFound/NotFound";
 
 function App() {
   return (
     <div>
-      <ProgressBar bgcolor="#1db954" />
-      {/* <LoadingBar color="#1db954"  /> */}
-      <Navbar />
-      <Header />
-      <Details />
-      <Resume />
+      <BrowserRouter>
+        <ProgressBar bgcolor="#1db954" />
+        <Navbar />
+        <Routes>
+          <Route path="/" element={<Home />} exact />
+          <Route path="/resume" element={<Home />} />
+          <Route path="/contact" element={<Home />} />
+          <Route path="/services" element={<Services />} />
+          <Route path="/portfolio" element={<Portfolio />} />
+          <Route path="*" element={<NotFound />} />
+        </Routes>
+        <Footer />
+      </BrowserRouter>
     </div>
   );
 }

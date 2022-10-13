@@ -31,6 +31,12 @@ ul li {
   color: #ffffff;
   text-decoration: none;
   padding: 0 2em;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.linkss {
+  color: #ffffff;
+  text-decoration: none;
 }
 .menu-icon {
   display: none;
@@ -62,7 +68,8 @@ ul li {
   }
 
   .nav-menu.active {
-    background: #6668f4;
+    background: #2d2828;
+
     left: 0;
     opacity: 1;
     transition: all 0.5s eas;
@@ -89,6 +96,7 @@ ul li {
     top: 0;
     left: 50%;
     transform: translate(-50%, 1225%);
+    display: none;
   }
   .logo {
     margin-right: 0;

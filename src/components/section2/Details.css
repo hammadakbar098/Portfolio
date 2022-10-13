@@ -1,7 +1,7 @@
 @import url("https://rsms.me/inter/inter.css");
 
 .test {
-  /* height: 200vh; */
+  /* padding-top: 5%; */
 }
 .section2 {
   display: flex;
@@ -36,20 +36,20 @@ ul {
 }
 @media screen and (max-width: 960px) {
   .test {
-    /* margin-top: 300px; */
+    padding-top: 5%;
   }
   .details-h2 {
-    font-size: 1.1rem;
+    font-size: 4vw;
     display: flex;
     flex-direction: column;
     margin-top: 30px;
   }
   .details p,
   ul {
-    font-size: 0.75rem;
+    font-size: 3vw;
   }
   .bay {
-    width: 125px;
+    width: 34vw;
     margin-top: 5vh;
   }
 }

@@ -2,7 +2,7 @@
   display: flex;
   margin-top: 60px;
   justify-content: center;
-  padding-right: 0.8vw;
+  padding-left: 1.5vw;
   /* margin-left: 120px  ; */
   width: 100%;
 }
@@ -33,13 +33,25 @@
 .typing {
   color: #1db954;
 }
+.mbs-btn {
+  display: none;
+}
 
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 660px) {
+  .mbs-btn {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, 1225%);
+    display: block;
+  }
   .header {
     flex-direction: column-reverse;
     margin-top: 35px;
     margin-right: 0;
+    margin-left: 0;
     padding-right: 0;
+    padding-left: 0;
   }
   .size {
     width: 100%;

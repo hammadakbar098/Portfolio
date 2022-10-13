@@ -37,11 +37,11 @@ export const experience = [
 ];
 
 export const ProgressBarDetails = [
-  { title: "Communication", width: "97%" },
-  { title: "Negotiation", width: "95%" },
-  { title: "Leadership", width: " 98%" },
-  { title: "Planning", width: "94%" },
-  { title: "Management", width: "98%" },
-  { title: "Organization", width: "80%" },
+  { title: "Communication", width: "97%", animation: "animation1" },
+  { title: "Negotiation", width: "95%", animation: "animation2" },
+  { title: "Leadership", width: " 98%", animation: "animation3" },
+  { title: "Planning", width: "94%", animation: "animation4" },
+  { title: "Management", width: "98%", animation: "animation5" },
+  { title: "Organization", width: "80%", animation: "animation6" },
 ];
 // export default [images, information];

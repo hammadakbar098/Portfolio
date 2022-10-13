@@ -1,0 +1,67 @@
+.form {
+  display: grid;
+  align-content: center;
+  justify-items: center;
+  margin-top: 3%;
+}
+.form-box {
+  background-color: #191414;
+  border: 0.05vw solid #ffffff;
+  width: 20.9vw;
+  height: 3.7vw;
+  font-size: 1.1vw;
+  font-weight: 600;
+  padding-left: 1.1vw;
+  /* padding-top: ; */
+}
+.name-email input {
+  margin: 0 1.1vw;
+  color: #ffffff;
+}
+.name-email {
+  margin-bottom: 1.4vw;
+}
+.text-area textarea {
+  color: #ffffff;
+  height: 16.5vw;
+  width: 44vw;
+  margin-bottom: 1.4vw;
+  padding-top: 1.1vw;
+  font-weight: 600;
+}
+@media screen and (max-width: 960px) {
+  .form-box {
+    width: 30vw;
+    height: 6.2vw;
+    font-size: 1.3vw;
+    border: 0.12vw solid #ffffff;
+  }
+  .text-area textarea {
+    width: 62.18vw;
+    height: 24vw;
+    padding-top: 1.8vw;
+    font-weight: 600;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .name-email {
+    display: flex;
+    flex-direction: column;
+  }
+  .name-email input {
+    margin: 1.1vw 0;
+  }
+  .form-box {
+    /* height: 16.5vw; */
+    width: 70vw;
+    height: 10vw;
+    font-size: 2.5vw;
+    padding-left: 4.5%;
+  }
+  .text-area textarea {
+    width: 70vw;
+    height: 30vw;
+    padding-top: 5%;
+  }
+}
