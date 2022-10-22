@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Arimo:wght@400;500;600;700&display=swap");
+@import url("https://rsms.me/inter/inter.css");
+@font-face {
+  font-family: "AnekGurmukhi";
+  src: local("AnekGurmukhi"),
+    url("./fonts/AnekGurmukhi-Bold.ttf") format("truetype");
+  font-weight: bold;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #191414;
+  font-family: "Inter", sans-serif;
+  /* overflow: hidden; */
+  overflow-y: scroll;
+}
+body::-webkit-scrollbar {
+  display: none;
+}

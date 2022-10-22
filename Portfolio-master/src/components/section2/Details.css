@@ -1,0 +1,55 @@
+@import url("https://rsms.me/inter/inter.css");
+
+.test {
+  /* padding-top: 5%; */
+}
+.section2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.details {
+  margin-left: 7vw;
+}
+
+.details-h2 {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 2.5vw;
+  text-transform: uppercase;
+  margin-top: 10vh;
+}
+.details p,
+ul {
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 1.5vw;
+  line-height: 1.85;
+}
+.details li {
+  margin-left: 4vw;
+}
+
+.bay {
+  width: 34vw;
+  margin-top: 10vh;
+}
+@media screen and (max-width: 960px) {
+  .test {
+    padding-top: 5%;
+  }
+  .details-h2 {
+    font-size: 4vw;
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+  }
+  .details p,
+  ul {
+    font-size: 3vw;
+  }
+  .bay {
+    width: 34vw;
+    margin-top: 5vh;
+  }
+}

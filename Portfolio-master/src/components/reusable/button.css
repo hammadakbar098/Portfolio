@@ -1,0 +1,44 @@
+.button {
+  background-color: #1db954;
+  color: #ffffff;
+  border: none;
+  text-align: center;
+  cursor: pointer;
+}
+
+.button:hover {
+  background: rgba(32, 194, 88, 0.7);
+}
+.button:focus {
+  border: none;
+  outline: none;
+}
+.btn-round {
+  border-radius: 2.1vw;
+  font-size: 1.1vw;
+  font-weight: 700;
+  width: 11.5vw;
+  height: 2.8vw;
+}
+.btn-sm {
+  padding: 7px 25px;
+  font-size: 0.7rem;
+  font-weight: 700;
+  border-radius: 6px;
+}
+.btn-lg {
+  font-size: 1rem;
+  font-weight: 700;
+  padding: 10px 15px;
+  border-radius: 6px;
+}
+@media screen and (max-width: 960px) {
+  .btn-round {
+    border-radius: 30px;
+
+    width: 159px;
+    height: 40px;
+    font-size: 14px;
+    font-weight: 700;
+  }
+}

@@ -1,0 +1,168 @@
+.details_section {
+  margin-top: 1%;
+  display: flex;
+}
+/* Section 1 CSS */
+.rSection_1 {
+  width: 50%;
+  display: flex;
+}
+.box_placement {
+  margin-top: 4vw;
+  margin-left: -5vw;
+}
+.my_details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 27vw;
+  height: 6vw;
+  background-color: rgba(68, 55, 55, 0.4);
+  color: #ffffff;
+  border-radius: 1.5vw;
+  z-index: 9999;
+  margin-bottom: 0.8vw;
+  padding-left: 2vw;
+}
+.details_bold {
+  font-weight: 700;
+  font-size: 1.3vw;
+}
+.details_normal {
+  font-size: 1vw;
+}
+.details_medium {
+  font-weight: 500;
+  margin-top: 0.4vh;
+}
+.arrows {
+  width: 11vw;
+  margin-left: 16%;
+}
+/* Section 2 CSS */
+.rSection_2 {
+  width: 40%;
+  margin-left: 5%;
+}
+.experience {
+  color: #ffffff;
+  display: flex;
+  font-family: "AnekGurmukhi";
+  margin-top: 3%;
+}
+.expLeft {
+  margin-right: 12.5%;
+}
+.expBold {
+  font-size: 9.5vw;
+  margin-bottom: -10%;
+}
+.expNormal {
+  font-size: 1.8vw;
+  margin-top: -20%;
+}
+.icons {
+  padding-top: 5%;
+}
+.icons img {
+  width: 4.3vw;
+  margin-right: 3%;
+}
+.barDisplay {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding-top: 2vw;
+}
+.barDiv {
+  margin-bottom: 1.4vw;
+}
+.barDiv:nth-child(even) {
+  margin-left: -3vw;
+}
+/* using the animation */
+@media (prefers-reduced-motion: no-preference) {
+  .react {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+@media screen and (max-width: 960px) {
+  .title {
+    margin-top: -70px;
+  }
+  .details_section {
+    /* flex-direction: column;
+    align-content: center; */
+  }
+  .arrows {
+    /* margin-left: 0; */
+    width: 21vw;
+  }
+  .details_bold {
+    font-size: 1.9vw;
+  }
+  .details_normal {
+    font-size: 1.5vw;
+  }
+  .details_medium {
+    font-size: 1.7vw;
+  }
+  .my_details {
+    padding-bottom: 1vh;
+    width: 38vw;
+    height: 11vw;
+    margin-left: -10%;
+    margin: 4.5% 0;
+  }
+  .box_placement {
+    margin-top: 27.5%;
+    margin-left: -18%;
+  }
+  .rSection_1 {
+    /* width: 100%; */
+  }
+  .experience {
+    flex-direction: column;
+  }
+  .expLeft {
+    margin-bottom: 8%;
+  }
+  .expBold {
+    margin-bottom: 11%;
+    font-size: 11vw;
+  }
+  .expNormal {
+    margin-top: -18%;
+    font-size: 3vw;
+  }
+  .icons img {
+    width: 5vw;
+    margin-right: 5%;
+  }
+  .rSection_2 {
+    /* width: 100%; */
+    margin-left: 13%;
+    margin-top: 4%;
+  }
+  .testa {
+    margin-bottom: 50vh;
+  }
+  .barDisplay {
+    display: flex;
+    flex-direction: column;
+  }
+  .barDiv {
+    padding-bottom: 0.5vh;
+  }
+  .barDiv:nth-child(even) {
+    margin-left: 0;
+  }
+}
+/* Animations */
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

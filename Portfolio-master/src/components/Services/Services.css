@@ -1,0 +1,22 @@
+.services-s img {
+  width: 20vw;
+  margin-bottom: 3vw;
+  margin-top: 1vw;
+}
+.services-s {
+  margin-top: -1vw;
+  display: grid;
+  align-content: center;
+  justify-items: center;
+  font-size: 1.2vw;
+  color: #ffffff;
+}
+@media screen and (max-width: 960px) {
+  .services-s img {
+    width: 50vw;
+  }
+  .services-s {
+    font-size: 1.5vw;
+    padding-top: 10%;
+  }
+}

@@ -1,0 +1,110 @@
+p {
+  color: aliceblue;
+}
+.outerBox {
+  width: 13vw;
+  height: 0.8vw;
+  border-radius: 1vw;
+  background-color: #ffffff;
+}
+.innerBox {
+  height: 0.8vw;
+  border-radius: 1vw;
+  background-color: #1db954;
+  /* animation: loading 2s ease-in-out forwards; */
+}
+.progressbarTitle {
+  font-weight: 500;
+  font-size: 1.3vw;
+  margin-bottom: 0.6vw;
+}
+.animation1 {
+  animation: loading1 2s ease-in-out forwards;
+}
+
+.animation2 {
+  animation: loading2 2s ease-in-out forwards;
+}
+
+.animation3 {
+  animation: loading3 2s ease-in-out forwards;
+}
+
+.animation4 {
+  animation: loading4 2s ease-in-out forwards;
+}
+
+.animation5 {
+  animation: loading5 2s ease-in-out forwards;
+}
+
+.animation6 {
+  animation: loading6 2s ease-in-out forwards;
+}
+
+@media screen and (max-width: 960px) {
+  .progressbarTitle {
+    font-size: 3.5vw;
+  }
+  .outerBox {
+    width: 20vw;
+    height: 1.5vw;
+  }
+  .innerBox {
+    height: 1.5vw;
+  }
+}
+
+@keyframes loading1 {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 80%;
+  }
+}
+
+@keyframes loading2 {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 85%;
+  }
+}
+
+@keyframes loading3 {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 90%;
+  }
+}
+
+@keyframes loading4 {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 76%;
+  }
+}
+
+@keyframes loading5 {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 72%;
+  }
+}
+
+@keyframes loading6 {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 86%;
+  }
+}
